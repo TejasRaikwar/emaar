@@ -8,8 +8,8 @@
 }
 
 .site-navbar {
-    background-color: blue;
-    height: 4rem;
+    /* background-color: blue; */
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -24,13 +24,15 @@
 .search-ip {
     padding: 6px;
     font-size: 17px;
-    border: none;
+    border: 1px solid black;
+    border-right: none;
     outline: none;
     border-radius: 4px 0 0 4px;
     padding-inline-start: 16px;
     width: 400px;
     height: 40px;
     box-sizing: border-box;
+
 }
 
 .search-container .search-btn {
@@ -47,6 +49,8 @@
     cursor: pointer;
     display: inline-flex;
     border-radius: 0 4px 4px 0;
+    border: 1px solid black;
+    border-left: none;
 }
 
 .search-container .search-btn i {
@@ -56,9 +60,7 @@
 /* search end */
 
 .nav-prof-container {
-    min-width: 5rem;
     height: 40px;
-    border: 1px solid white;
 }
 
 .nav-prof-container .prof-items {
@@ -67,11 +69,21 @@
 }
 
 .nav-prof-container .prof-items li {
-    width: 20px;
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    margin: 0 2px;
+    color: rgb(37, 37, 37);
+}
+
+.nav-prof-container .prof-items li:hover{
+    background-color: green;
 }
 
 .nav-prof-container .prof-items li i {
-    color: white;
+    color: rgb(56, 56, 56);
     font-size: 18px;
 }
