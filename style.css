@@ -481,6 +481,9 @@
     align-items: center;
     padding: 0.7rem 0;
 }
+.bday-slide-item {
+    border-bottom: 1px solid rgb(180, 180, 180) !important;
+}
 
 .bday-slide-item .emp-pic {
     height: 50px;
