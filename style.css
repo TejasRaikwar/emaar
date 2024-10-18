@@ -1,3 +1,9 @@
+:root{
+    --main-color:#071c35;
+    --secondary-color:white;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -55,8 +61,7 @@
     align-items: center;
     justify-content: center;
     float: right;
-    background-color: #800000 !important;
-    /* background-color: rgb(51 147 223) !important; */
+    background-color: var(--main-color) !important;
     border: none;
     color: white;
     cursor: pointer;
@@ -140,8 +145,6 @@
 .ql-slider i {
     font-size: 30px;
     color: #7c7b7b;
-    /* color: #800000; */
-    /* color: #db8181; */
     display: block;
 }
 
@@ -212,7 +215,7 @@
 }
 
 .vr-line {
-    background-color: #800000;
+    background-color: var(--main-color);
     width: 7px;
     border-radius: 8px;
     margin-right: 10px;
@@ -221,7 +224,7 @@
 .heading {
     font-size: 21px;
     font-weight: 600;
-    color: #800000;
+    color: var(--main-color);
 }
 
 .block-img,
@@ -340,7 +343,7 @@
 .events .top {
     border-radius: 10px 10px 0 0;
     width: 100%;
-    background-color: #800000;
+    background-color: var(--main-color);
     height: 30px;
     display: flex;
     align-items: center;
