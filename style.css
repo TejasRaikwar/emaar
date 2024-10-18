@@ -337,14 +337,14 @@
 }
 
 .cal-div {
-    width: 150px;
+    width: 140px;
 }
 
 .events .top {
     border-radius: 10px 10px 0 0;
     width: 100%;
     background-color: var(--main-color);
-    height: 30px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,7 +359,7 @@
     align-items: center;
     justify-content: center;
     background-color: #f5f5f5;
-    padding-top: 5px;
+    padding-top: 4px;
 }
 
 .cal-div .date {
@@ -380,6 +380,9 @@
     align-items: center;
     justify-content: center;
     margin-left: 10px;
+}
+.event-heading{
+    font-size: 16px;
 }
 
 .event-time {
