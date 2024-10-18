@@ -493,12 +493,13 @@
 }
 
 .bday-slide-item .emp-name {
-    font-size: 19px !important;
+    font-size: 18px !important;
+    font-weight: 600;
 }
 
 .bday-slide-item .emp-designation {
-    color: rgb(104, 104, 104);
-    font-size: 14px;
+    color: rgb(83, 83, 83);
+    font-size: 15px;
 }
 
 /* new emp */
